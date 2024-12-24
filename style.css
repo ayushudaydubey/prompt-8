@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +24,7 @@ main {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
-/* Navigation Bar */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -171,30 +171,4 @@ nav .icon-btn button:hover {
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .page {
-    flex-direction: column;
-  }
-
-  .left h1 {
-    font-size: 3rem;
-  }
-
-  .right-top h1 {
-    font-size: 2rem;
-  }
-
-  nav {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  nav .links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
