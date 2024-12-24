@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-background-color: #000;
+  background: linear-gradient(135deg, #000000, #006964 ,rgb(0, 0, 0) );
   color: #fff;
   min-height: 100vh;
   padding: 20px;
@@ -17,7 +17,7 @@ main {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  background: linear-gradient(rgb(0, 0, 0),rgb(36, 0, 28));
+  background: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   padding: 20px;
   backdrop-filter: blur(20px);
